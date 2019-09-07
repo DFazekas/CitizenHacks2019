@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Data Dashboard",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "jQuery.js",
+                "content.js"
+            ]
+        }
+    ],
+    "browser_action": {
+        "default_title": "pop-up TiTlE",
+        "default_popup": "index.html"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    }
+}

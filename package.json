@@ -1,0 +1,14 @@
+{
+  "name": "citizen_hacks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "content.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "blockstack": "^19.3.0"
+  }
+}
